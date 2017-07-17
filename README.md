@@ -1,5 +1,4 @@
-# SAFeS
-Semi-Automatic Feature Selection
+# SAFeS - A Tool for Semi-Automatic Feature Selection
 1. Introduction
 2. Core Implementation
 3. Getting started
@@ -10,8 +9,7 @@ Semi-Automatic Feature Selection
 6. License
 
 # 1. Introduction
-In data mining and the machine learning domain, the Feature Selection (FS) task is considered to be one of the most critical problems for selecting relevant features from a larger set of features. Feature selection plays a pivotal role in the so-called process of *Knowledge Discovery*. For the features selection task of data mining, considerable research has focused on proposing improved feature selection algorithms, yet less attention has been paid to a uniﬁed methodology for feature selection. In this regard, a *Semi-Automatic Feature Selection* (SAFeS) methodology is proposed, which includes an innovative *Ensemble-based Feature Ranking with Scaling* (EFRS) methodology to assist the domain expert in selecting informative features for decision making. The main purpose of the EFRS methodology is to evaluate the feature-set in a comprehensive manner, which is based on diﬀerent feature selection measures, namely information gain, gain ratio, symmetric uncertainty, chi-square and signiﬁcance. 
-In order to realize the SAFeS methodology a web-based *Data-Driven Knowledge Acquisition Tool* (DDKAT) is developed, which provides a data mining service addressed to expert and non-expert data miners.
+For the features selection task of data mining, considerable research has focused on proposing improved feature selection algorithms, yet less attention has been paid to a uniﬁed methodology for feature selection. In this regard, a *Semi-Automatic Feature Selection* (SAFeS) methodology is proposed, which includes an innovative *Ensemble-based Feature Ranking with Scaling* (EFRS) methodology to assist the domain expert in selecting informative features for decision making. The main purpose of the EFRS methodology is to evaluate the feature-set in a comprehensive manner, which is based on diﬀerent feature selection measures, namely information gain, gain ratio, symmetric uncertainty, chi-square and signiﬁcance. In order to realize the SAFeS methodology a web-based *Data-Driven Knowledge Acquisition Tool* (DDKAT) is developed, which provides a data mining service addressed to expert and non-expert data miners.
 
 # 2. Core Implementation
 The SAFeS core implementation is mainly include three core components; The *Schema Loader*, *Query Configuration*, and the *Features Ranker*. It is developed according to Spring MVC pattern as a maven project.
